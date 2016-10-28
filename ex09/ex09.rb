@@ -12,3 +12,4 @@ weruqweruqwourioqwupreou
 PARAGRAPH
 
 # 自己檢查結果，記錄你犯過的錯誤，並且在下個練習中儘量不犯相同的錯誤。
+# http://lrthw.github.io/ex09/
