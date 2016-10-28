@@ -3,3 +3,5 @@ sex = gets.chomp
 puts "Hello, #{sex}!"
 
 # http://lrthw.github.io/ex11/
+# gets 取資料
+# chomp 去掉字串末的輸入
