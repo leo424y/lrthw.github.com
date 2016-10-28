@@ -1,0 +1,5 @@
+- Write a gem summary}</span> __TODO__ [atom.xml](atom.xml)
+- Write a gem summary}</span> __TODO__ [ex46/index.html](ex46/index.html)
+- Write a gem description}</span> __TODO__ [atom.xml](atom.xml)
+- Write a gem description}</span> __TODO__ [ex46/index.html](ex46/index.html)
+- 記住，每個人都會犯錯。程式設計師和魔術師一樣，他們希望大家認為他們從不犯錯，不過這只是表象而已，他們每時每刻都在犯錯。 __TODO__ [ex07/ex07.rb](ex07/ex07.rb)
