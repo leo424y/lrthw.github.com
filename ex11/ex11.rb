@@ -1,3 +1,3 @@
-print 'Input your name: '
-name = gets
-puts "Hello, #{name}!"
+print 'Input your sex: '
+sex = gets.chomp
+puts "Hello, #{sex}!"
