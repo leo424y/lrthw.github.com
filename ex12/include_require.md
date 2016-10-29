@@ -16,11 +16,11 @@
       5723 次閱讀
 
 [![17502](https://ruby-china-files.b0.upaiyun.com/user/avatar/17502.jpg!md)](https://ruby-china.org/skpark1987)
-
+
 __ 本帖已被設為精華帖！
 
 <article>
-**原文鏈接**:  [Ruby Require VS Load VS Include VS Extend](http://ionrails.com/2009/09/19/ruby_require-vs-load-vs-include-vs-extend/)
+**原文鏈接**:  [Ruby Require VS Load VS Include VS Extend](http://ionrails.com/2009/09/19/ruby_require-vs-load-vs-include-vs-extend/)
 
 #### Include
 
