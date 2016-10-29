@@ -6,9 +6,9 @@ open('http://www.ruby-lang.org/en') do |f|
   puts f.content_type
   puts f.charset
   puts f.content_encoding
-  puts f.last_modified
+  puts f.last_modified
 end
-
+
 # dif requre, load
 puts require './x'
 puts require './x'
