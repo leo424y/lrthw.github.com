@@ -9,6 +9,14 @@ open('http://www.ruby-lang.org/en') do |f|
   puts f.last_modified
 end
 
+# dif requre, load
+puts (require './x.rb')
+puts (require './x.rb')
+puts (require './x.rb')
+puts load './x.rb'
+puts load './x.rb'
+puts load './x.rb'
+
 # 上網搜尋 require 與 include 的差異點。它們有什麼不同？
 # What's the difference between "include" and "require" in Ruby?
 #
