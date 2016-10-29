@@ -10,9 +10,9 @@ open('http://www.ruby-lang.org/en') do |f|
 end
 
 # dif requre, load
-puts (require './x.rb')
-puts (require './x.rb')
-puts (require './x.rb')
+puts require './x'
+puts require './x'
+puts require './x'
 puts load './x.rb'
 puts load './x.rb'
 puts load './x.rb'
@@ -34,5 +34,5 @@ puts load './x.rb'
 # Oddly enough, Ruby's require is analogous to C's include, while Ruby's include is almost nothing like C's include.
 #
 # http://stackoverflow.com/questions/318144/what-is-the-difference-between-include-and-require-in-ruby What is the difference between include and require in Ruby? - Stack Overflow
-# 你能 require 一段沒有特別包含 module 的腳本嗎？
+# 你能 require 一段沒有特別包含 module 的腳本嗎？ 可以
 # 搞懂 Ruby 會去系統的哪裡找你 require 的 modules。

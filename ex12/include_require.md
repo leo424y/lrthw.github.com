@@ -1,5 +1,33 @@
 # 基礎 Ruby 中 Include, Extend, Load, Require 的使用區別
 
+include是讓這個class所產生的instance繼承module中的method，有點javascript中function.prototype的味道。
+extend則是讓這個class具有module中的method，卻不會繼承給instance。
+
+在講require之前必須先提到load，load的作用在於將不同檔案的module給mix進來，概念上類似於C的include。而require的作用就類似於load，只是在require只會mix一次，當發現之前已經mix過同一個檔案時，require就會回傳false。
+require相對load會少掉不必要的mix動作，但在module時常被更新的狀態下，最好使用load來確保自己抓到的檔案是最新的。
+
+
+
+## require” 和 “load” 用途是一致的, 用來載入新的程式庫, “include” 是用來 mix-in 模組.
+
+1. “require” 可載入某個 a.rb 檔案, 且可以省略 ”.rb”. 而且它只會在第一次的時候載入, 若再次 “require” 時就會忽略
+require 'a'
+a = A.new
+
+2. “load” 和 “require” 一樣但要用 a.rb 全名, 且每次一定會重新載入
+load 'a.rb'
+a = A.new
+
+3. 載入程式庫的順序呢(類似 java class path)? Ruby 把這個資訊存在 ”$:” 系統全域變數上, 你可以藉著 RUBYLIB 或 ruby -I 來加入新的載入目錄.
+puts $:
+
+4. “include” 用來 mix-in 某個模組, 可以減少書寫的長度
+require 'webrick'
+include WEBrick
+
+//可以不用 server = WEBrick::HTTPServer.new(...)
+//server = HTTPServer.new(...)
+
 
 [翻譯](https://ruby-china.org/topics/node68)
        ·
