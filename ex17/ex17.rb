@@ -3,8 +3,7 @@ script = $PROGRAM_NAME
 
 puts "Copying from #{from_file} to #{to_file}"
 
-input = File.open(from_file)
-indata = input.read
+indata = (input = File.open(from_file)).read
 
 puts "The input file is #{indata.length} bytes long"
 
