@@ -3,6 +3,7 @@ script = $PROGRAM_NAME
 
 puts "Copying from #{from_file} to #{to_file}"
 
+# Just put input in indata XD
 indata = (input = File.open(from_file)).read
 
 puts "The input file is #{indata.length} bytes long"
