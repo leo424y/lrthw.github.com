@@ -36,13 +36,13 @@ five = 10 - 2 + 3 - 6
 puts "This should be five: #{five}"
 
 def secret_formula(started)
-  jelly_beans = started * 500
+  jelly_beans = started * 500
 
-  jars = jelly_beans / 1000
+  帥 = jelly_beans / 1000
 
-  crates = jars / 100
-
-  [jelly_beans, jars, crates]
+  crates = 帥 / 100
+  # 回傳array
+  [jelly_beans, 帥, crates, '啾']
 end
 
 start_point = 10_000
@@ -65,4 +65,4 @@ puts 'We can also do that this way:'
 # puts "We'd have %s beans, %s jars, and %s crates. %s" % secret_formula(start_point)
 # 少的話就顯示 nil
 # puts "We'd have %s beans, %s jars, and %s crates." % secret_formula(start_point)
-puts "We'd have %s beans, %s jars, and crates." % secret_formula(start_point)
+puts "We'd have %s beans, %s jars, and %s crates. %s" % secret_formula(start_point)
