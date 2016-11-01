@@ -47,14 +47,16 @@ end
 
 start_point = 10_000
 
+# wrong number of arguments (given 2, expected 1) (ArgumentError)
+# beans, jars, crates = secret_formula(start_point, 1)
 beans, jars, crates = secret_formula(start_point)
 
+# undefined method `put' for main:Object (NoMethodError)
+# puts put "With a starting point of: #{start_point}"
 puts "With a starting point of: #{start_point}"
 
 puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
 
-# 打九折啊, 手滑多打/ unterminated regexp meets end of file
-# start_point //= 10
 start_point /= 10
 
 puts 'We can also do that this way:'
