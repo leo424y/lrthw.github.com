@@ -1,7 +1,54 @@
-ABCDEFG
-asdf
-as
-dfasd
-fas
-dfas
-df
+Yukihiro (Matz) Matsumoto
+Creator of Ruby, Heroku
+Konstantin Hasse
+Co-Founder and CTO, Travis CI
+Luba Tang
+Co-Founder and CTO, Skymizer
+Brad Urani
+rincipal Software Engineering, Procore
+Chien-Wei Chu
+CTO, 財報狗
+David Chang
+Software engineer, Solda
+Don Werve
+Consultant, Minimum Viable
+Eric Hodel
+Fastly
+Flo
+Senior Backend Engineer, Strikingly
+Harisankar
+CEO/Chief Solutions Architect, Red Panthers Software Solutions (P) Ltd.
+Hiro Asari
+Developer, Travis CI GmbH
+Ivan Nemytchenko
+Developer Advocate, Gitlab
+Juin Chiu
+Web developer, iCook, Polydice Inc.
+Julian Cheal
+Senior Software Developer, Red Hat
+Kazuyuki Honda
+DevOps Engineer, Quipper Ltd
+Kei Sawada
+Software Engineer, Recruit Holdings Co., Ltd.
+Kiyoshi Nomo
+Software engineer
+Layne McNish
+Software Engineer, Omada Health
+Matthew Rudy Jacobs
+Lead Architect, GoGoVan
+Satoshi 'Moris' Tagomori
+Software Engineer, Treasure Data, Inc.
+Shi-Gang Wang
+Software engineer, Goldenio Technoloy
+Shi-Ken Don
+Web Developer, 貝殼放大
+Urabe, Shyouhei
+ruby-core committer, Money Forward, Inc.
+Yasuko Ohba
+President, Everyleaf Corporation
+Yatish Mehta
+Engineer, Coupa Software
+youchan
+Software engineer, Ubiregi inc.
+ZYWU
+Software Engineer , Trend Micro

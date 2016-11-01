@@ -7,7 +7,7 @@ def print_all(f)
 end
 
 def rewind(f)
-  # Restart from the "1"st word # BCD...
+  # Restart from the "1"st word # BCD... , no A(第0個字)
   f.seek(1, IO::SEEK_SET)
 end
 
