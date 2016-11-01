@@ -36,22 +36,22 @@ five = 10 - 2 + 3 - 6
 puts "This should be five: #{five}"
 
 def secret_formula(started)
-  jelly_beans = started * 500
+  jelly_beans = started * 500
 
-  帥 = jelly_beans / 1000
+  jars = jelly_beans / 1000
 
-  crates = 帥 / 100
-  # 回傳array
-  [jelly_beans, 帥, crates, '啾']
+  crates = jars / 100
+
+  [jelly_beans, jars, crates]
 end
 
-start_point = 10_000
+# 自動加底線耶 好強大 XD linter
+start_point = 10_000_000
 
-# wrong number of arguments (given 2, expected 1) (ArgumentError)
-# beans, jars, crates = secret_formula(start_point, 1)
 beans, jars, crates = secret_formula(start_point)
 
 # undefined method `put' for main:Object (NoMethodError)
+# puts put "With a starting point of: #{start_point}"
 # puts put "With a starting point of: #{start_point}"
 puts "With a starting point of: #{start_point}"
 
@@ -65,4 +65,4 @@ puts 'We can also do that this way:'
 # puts "We'd have %s beans, %s jars, and %s crates. %s" % secret_formula(start_point)
 # 少的話就顯示 nil
 # puts "We'd have %s beans, %s jars, and %s crates." % secret_formula(start_point)
-puts "We'd have %s beans, %s jars, and %s crates. %s" % secret_formula(start_point)
+puts "We'd have %s beans, %s jars, and crates." % secret_formula(start_point)
