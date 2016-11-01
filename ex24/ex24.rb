@@ -57,4 +57,7 @@ start_point /= 10
 
 puts 'We can also do that this way:'
 
-puts "We'd have %s beans, %s jars, and %s crates. %s" % secret_formula(start_point)
+# 多一個 %s,  too few arguments (ArgumentError)
+# puts "We'd have %s beans, %s jars, and %s crates. %s" % secret_formula(start_point)
+# 少的話就顯示 nil
+puts "We'd have %s beans, %s jars, and crates." % secret_formula(start_point)
