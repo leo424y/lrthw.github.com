@@ -1,3 +1,4 @@
+# 18la.rb
 def same(i, j)
   print i.to_s
   print "-#{j}|"
@@ -46,6 +47,7 @@ puts case $z
      when 3
        $d1.to_s + '重覆' + '重來'
 end
+
 # $dice = 4
 # while $x < $dice
 #   # sum += i[$x]
