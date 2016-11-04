@@ -49,3 +49,20 @@ for i in elements
   puts "Element was: #{i}"
 
 end
+for j in (0...5)
+
+  puts "Adding #{j} to the list."
+
+  # push is a function that arrays understand
+
+  elements.push(j.to_s + '人')
+
+end
+
+# now we can puts them out too
+
+for j in elements
+
+  puts "Element was: #{j}"
+
+end
