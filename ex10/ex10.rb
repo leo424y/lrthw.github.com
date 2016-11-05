@@ -6,9 +6,11 @@ backslash_cat = "I'm \\ a  \\ cat. \\\\\\\| oooo."
 
 fat_cat = <<SDF
 I'll do a list:
-\t* Cat food
+\t* Cat food #{tabby_cat}
 \t* Fishies
 \t* Catnip\n\t* Grass
+
+#{tabby_cat}
 SDF
 
 puts tabby_cat
