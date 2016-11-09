@@ -36,6 +36,7 @@ when 200
   find_word(body)
 when 404
   puts 'O noes not found!'
+  # p ''
 when 500...600
   puts "ZOMG ERROR #{response.code}"
 end
