@@ -4,8 +4,8 @@ require 'NAME/version'
 Gem::Specification.new do |s|
   s.name        = 'NAME'
   s.version     = NAME::VERSION
-  s.authors     = ['Rob Sobers']
-  s.email       = ['rsobers@gmail.com']
+  s.authors     = ['Yang Hsiang Chang']
+  s.email       = ['leo424y@gmail.com']
   s.homepage    = ''
   s.summary     = 'TODO: Write a gem summary'
   s.description = 'TODO: Write a gem description'
