@@ -1,5 +1,6 @@
 ## Animal is-a object (yes, sort of confusing) look at the extra credit
 class Animal
+  p 'Animal'
 end
 ## ??
 class Dog < Animal
@@ -24,6 +25,14 @@ class Person
     ## Person has-a pet of some kind
     @pet = nil
   end
+
+  def say_i_have(i_have)
+    p 'I have' + i_have.to_s
+  end
+
+  def say_i_am(i_am)
+    p 'I am' + i_am.to_s
+  end
 end
 ## ??
 class Employee < Person
@@ -43,16 +52,21 @@ end
 ## ??
 class Halibut < Fish
 end
+
 ## rover is-a Dog
-rover = Dog.new("Rover")
+rover = Dog.new('Rover')
 ## ??
-satan = Cat.new("Satan")
+satan = Cat.new('Satan')
 ## ??
-mary = Person.new("Mary")
+mary = Person.new('Mary')
+
 ## ??
 mary.pet = satan
+mary.say_i_have(mary.pet)
+mary.say_i_am(mary)
+
 ## ??
-frank = Employee.new("Frank", 120000)
+frank = Employee.new('Frank', 120_000)
 ## ??
 frank.pet = rover
 ## ??
